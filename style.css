@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    min-height: 100px;
+    width: 100%;
+    background-image: url(2022-11-24 (2).png);
+    background-position: center;
+}
+
+
+
+
+
+/*
+.container{
+    display: flex;
+    width: 100%;
+    bacground-colour: white;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 1700px) {
+    .split{
+        flex-grow: 1;
+        flex-basis: 50%;
+    }
+}
+@media (max-width: 576px) {
+    .split{
+        flex-grow: 1;
+        flex-basis: 100%;
+    }
+ }
+/*
+ 
