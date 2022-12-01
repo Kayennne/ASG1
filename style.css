@@ -137,7 +137,6 @@ header div h1 {
 
 .tank .tankpic, .damage .damagepic, .support .supportpic{
     text-align: center;
-
 }
 
 .tankdesc, .damagedesc, .supportdesc {
@@ -162,7 +161,7 @@ header div h1 {
     margin: 0 auto;
 }
 
-#tankpic {
+/* #tankpic {
     overflow: hidden;
 }
 
@@ -172,7 +171,7 @@ header div h1 {
     margin: 0;
     left: 0;
     animation: 20s slider infinite;
-}
+} */
 /* .overlay {
     position: absolute;
     top: 0;
@@ -219,11 +218,11 @@ header div h1 {
     }
 
     /* hero page */
-    . {
+    .tank, .support {
         display: flex;
     }
 
-    .box2 {
+    .damage {
         display: flex;
         flex-direction: inherit;
     }
