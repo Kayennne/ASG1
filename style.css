@@ -4,23 +4,245 @@
 
 }
 
-.container{
-    min-height: 100px;
-    width: 100%;
-    background-image: url(2022-11-24 (2).png);
+
+header{
+
+    background-image: url(img/2022-11-24\ \(2\).png);
     background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    color: white;
 }
 
+nav{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 150px;
+}
+
+header nav ul li{
+
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 16px;
+    position: relative;
+}
+
+header nav ul li a{
+
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav ul li a:hover{
+
+    color: blue;
+}
+
+header div h1 {
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.overview{
+    padding: 40px;
+    background-color:#fff;
+
+}
+
+.box1 {
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 10px
+}
+
+.box2 {
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.box1 .image, .box2 .image{
+
+    text-align: center;
+
+}
+
+.text {
+    text-align: center;
+    flex: 50%;
+}
+
+.text h2 {
+    padding-bottom: 30px;
+}
+
+.text p {
+    line-height: 2;
+}
+
+.image {
+    flex: 50%;
+}
+
+.image img {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.teams{
+    width: auto;
+    margin: 5px;
+}
+
+/* ---------- Hero Page ----------*/
+.tank {
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+
+}
+
+.damage {
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.support {
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+
+}
+
+.tank .tankpic, .damage .damagepic, .support .supportpic{
+    text-align: center;
+
+}
+
+.tankdesc, .damagedesc, .supportdesc {
+    text-align: center;
+    flex: 50%
+}
+
+.tankdesc h2, .damagedesc h2, .supportdesc h2 {
+    padding-bottom: 30px;
+}
+
+.tankdesc p, .damagedesc p, .supportdesc p {
+    line-height: 2;
+}
+
+.tankpic, .damagepic, .supportpic {
+    flex: 50%
+}
+
+.tankpic img, .damagepic img, .supportpic img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#tankpic {
+    overflow: hidden;
+}
+
+#tankpic figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+/* .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: black;
+    cursor: pointer;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.container:hover .overlap {
+    opacity: 0.8;
+} */
 
 
+/*---------- Laptop Size ------------*/
 
 
+@media screen and (min-width:992px) {
+    /* home page */
+    .tank, .support {
+        display: flex;
+    }
+
+    .damage {
+        display: flex;
+        flex-direction: inherit;
+    }
+
+    .tankdesc, .damagedesc, .supportdesc {
+        padding: 0 120px;
+    }
+
+    /* hero page */
+    . {
+        display: flex;
+    }
+
+    .box2 {
+        display: flex;
+        flex-direction: inherit;
+    }
+
+    .text {
+        padding: 0 120px;
+    }
+}
 /*
 .container{
     display: flex;
     width: 100%;
     bacground-colour: white;
     flex-wrap: wrap;
+
+    min-height: 100px;
+    width: 100%;
+    background-image: url(2022-11-24 (2).png);
+    background-position: center;
 }
 
 
