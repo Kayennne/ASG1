@@ -7,13 +7,23 @@
 
 header{
 
+    /* background-image: url(img/2022-11-24\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+    position: relative; */
+    /* min-height: 100vh; */
+    width: 100%;
+    color: white;
+}
+
+.main-container{
+
     background-image: url(img/2022-11-24\ \(2\).png);
     background-position: center;
     background-size: cover;
-    position: relative;
-    min-height: 100vh;
-    width: 100%;
+    padding: 220px 0;
     color: white;
+    text-align: center;
 }
 
 nav{
@@ -38,7 +48,7 @@ header nav ul li{
 header nav ul li a{
 
     text-decoration: none;
-    color: #fff;
+    color: #00000;
 }
 
 header nav ul li a:hover{
