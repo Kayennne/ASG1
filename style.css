@@ -161,6 +161,48 @@ header div h1 {
     margin: 0 auto;
 }
 
+/* ---------- Teams ----------*/
+
+.m {
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 10px
+}
+
+.mpic {
+    text-align: center;
+}
+
+.mdesc {
+    text-align: left;
+    flex: 50%;
+}
+
+.mdesc h2 {
+    padding-bottom: 30px;
+}
+
+.mdesc p {
+    line-height: 2;
+}
+
+.mpic{
+    flex: 50%;
+}
+
+.mpic img {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
 /* #tankpic {
     overflow: hidden;
 }
@@ -203,6 +245,20 @@ header div h1 {
 
 
 @media screen and (min-width:992px) {
+
+    .box1 {
+        display: flex;
+    }
+
+    .box2 {
+        display: flex;
+        flex-direction: inherit;
+    }
+
+    .text {
+        padding: 0 120px;
+    }
+
     /* home page */
     .tank, .support {
         display: flex;
@@ -227,10 +283,45 @@ header div h1 {
         flex-direction: inherit;
     }
 
-    .text {
+    
+
+    
+    /* home page */
+    .tank, .support {
+        display: flex;
+    }
+
+    .damage {
+        display: flex;
+        flex-direction: inherit;
+    }
+
+    .tankdesc, .damagedesc, .supportdesc {
+        padding: 0 120px;
+    }
+
+    /* hero page */
+    .tank, .support {
+        display: flex;
+    }
+
+    .damage {
+        display: flex;
+        flex-direction: inherit;
+    }
+
+    
+    /* ---------- Teams ----------*/
+    .m{
+        display: flex;
+    }
+
+    .mdesc {
         padding: 0 120px;
     }
 }
+
+
 /*
 .container{
     display: flex;
