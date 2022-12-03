@@ -24,6 +24,7 @@ header{
     padding: 220px 0;
     color: white;
     text-align: center;
+    font-size: 300%;
 }
 
 nav{
@@ -53,7 +54,7 @@ header nav ul li a{
 
 header nav ul li a:hover{
 
-    color: blue;
+    color: orangered;
 }
 
 header div h1 {
@@ -147,6 +148,7 @@ header div h1 {
 
 .tank .tankpic, .damage .damagepic, .support .supportpic{
     text-align: center;
+    
 }
 
 .tankdesc, .damagedesc, .supportdesc {
@@ -184,7 +186,7 @@ header div h1 {
 }
 
 .mdesc {
-    text-align: left;
+    text-align: center;
     flex: 50%;
 }
 
@@ -205,10 +207,134 @@ header div h1 {
     margin: 0 auto;
 }
 
+.socials {
+    font-size: 40px;
+    
+}
 
+.socials ul{
+    display: flex;
+    justify-content: center;
+}
 
+.socials ul li{
 
+    padding: 20px;
+    list-style-type: none;
 
+}
+
+.socials ul li a{
+
+    color:black;
+
+}
+
+.socials ul li a:hover{
+
+    color:orangered;
+
+}
+
+/* -----------slideshows----------- */
+
+* {box-sizing: border-box}
+.tankpic, .damagepic {display: none}
+img {vertical-align: middle;}
+
+.tank .slideshow-container .tankpic .prev, .tank .slideshow-container .tankpic .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px 20px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.tank .slideshow-container .button {
+    display: flex;
+    justify-content: center;
+
+}
+
+.damage .slideshow-container .damagepic .prev, .tank .slideshow-container .tankpic .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px 20px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.damage .slideshow-container .button {
+    display: flex;
+    justify-content: center;
+
+}
+
+.support .slideshow-container .supportpic .prev, .tank .slideshow-container .tankpic .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px 20px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.support .slideshow-container .button {
+    display: flex;
+    justify-content: center;
+
+}
+.next, .prev{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    padding: 20px;
+  }
+
+.prev:hover, .next:hover {
+background-color: #f1f1f1;
+color: black;
+}
+
+.box1 .slideshow-container .maps .prev, .box1 .slideshow-container .maps .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px 20px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.maps .slideshow-container .button {
+    display: flex;
+    justify-content: center;
+
+}
 
 
 
@@ -328,6 +454,7 @@ header div h1 {
 
     .mdesc {
         padding: 0 120px;
+        text-align: left;
     }
 }
 
