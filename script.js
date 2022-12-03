@@ -1,4 +1,4 @@
-let slideIndex = [1,1];
+let slideIndex = [1,3];
 let slideId = ["tankpic", "damagepic", "supportpic","maps"]
 showSlides(1, 0);
 showSlides(1, 1);
