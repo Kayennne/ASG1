@@ -1,12 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Bangers;
 
 }
 
-.h2 {
-    font-family: Josefin;
-
+h1{
+    letter-spacing: 25px;
 }
 header{
 
@@ -413,7 +413,8 @@ color: black;
     scroll-behavior: smooth;
     box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
     border-radius: 0.5rem;
-    width: 100%;
+    width: 80%;
+    margin: auto;
     
     
 
