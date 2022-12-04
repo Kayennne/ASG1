@@ -1,9 +1,9 @@
-let slideIndex = [1,3];
-let slideId = ["tankpic", "damagepic", "supportpic","maps"]
+let slideIndex = [1,2];
+let slideId = ["tankpic", "damagepic", "supportpic"]
 showSlides(1, 0);
 showSlides(1, 1);
 showSlides(1, 2);
-showSlides(1, 3);
+
 
 
 function plusSlides(n, no) {
@@ -20,7 +20,6 @@ function showSlides(n, no) {
   }
   x[slideIndex[no]-1].style.display = "block";  
 }
-
 
 
 
