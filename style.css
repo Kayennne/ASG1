@@ -8,6 +8,17 @@
 h1{
     letter-spacing: 10px;
 }
+
+h2{
+    letter-spacing: 2px;
+}
+
+.members .m .mdesc {
+    font-size: 30px;
+}
+
+
+
 header{
 
     /* background-image: url(img/2022-11-24\ \(2\).png);
@@ -42,7 +53,7 @@ nav img{
 }
 
 footer {
-    background-color: grey;
+    background-color: rgb(197, 192, 192);
 }
 
 header nav ul li{
